@@ -1,6 +1,6 @@
 @font-face {
     font-family: Montserrat;
-    src: url("/fonts/Montserrat-VariableFont_wght.ttf");
+    src: url("./media/fonts/Montserrat-VariableFont_wght.ttf");
 }
 
 * {
@@ -14,7 +14,7 @@
 
 body {
     min-height: 100vh;
-    background: black url("/img/background_1.png") center/cover no-repeat;
+    background: black url("./media/img/background_1.png") center/cover no-repeat;
     font-size: 1.5rem;
 }
 .wrapper {
@@ -131,7 +131,7 @@ body {
 }
 @media (max-width: 768px) {
     body {
-        background-image: url("/img/background_2.png");
+        background-image: url("./media/img/background_2.png");
         font-size: 1.250rem;
     }
 }@media (max-width: 440px) {
